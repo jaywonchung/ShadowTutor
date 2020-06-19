@@ -1,0 +1,11 @@
+.vscode
+
+wheels
+
+output
+datasets/coco
+datasets/lvsdataset
+
+hacks
+
+*.pyc

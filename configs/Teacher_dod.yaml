@@ -1,0 +1,3 @@
+_BASE_: "../detectron2_repo/configs/COCO-InstanceSegmentation/mask_rcnn_R_50_FPN_3x.yaml"
+OUTPUT_DIR: "output/DOD"
+CUDNN_BENCHMARK: False

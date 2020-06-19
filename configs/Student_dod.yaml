@@ -1,0 +1,11 @@
+MODEL:
+  META_ARCHITECTURE: "Student"
+  DEVICE: "cuda"
+  WEIGHTS: "Student_amended.pth"
+INPUT:
+  FORMAT: "BGR"
+DATASETS:
+  NUM_CLASSES: 9
+VERSION: 2
+OUTPUT_DIR: "output/DOD"
+CUDNN_BENCHMARK: False
