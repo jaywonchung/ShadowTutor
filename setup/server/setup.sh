@@ -52,10 +52,10 @@ source install_pytorch.sh
 source install_detectron2.sh
 
 # Install other pip packages used
-pip install tqdm matplotlib h5py pycocotools==2.0.0
+pip install tqdm matplotlib h5py
 
 # Install scripts
-python utils.py mpiscript --host server --env shadowtutor
+python "$REPO_PATH/utils.py" mpiscript --host server --env shadowtutor
 cp "$REPO_PATH/scripts/run_log.sh" ~
 
 
