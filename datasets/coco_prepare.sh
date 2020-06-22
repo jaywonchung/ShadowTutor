@@ -17,6 +17,6 @@ rm val2017.zip
 rm train2017.zip
 
 # Make semantic segmentation labels
-conda activate off
+conda activate shadowtutor
 cd ..
 python datasets/coco_sem_seg.py
